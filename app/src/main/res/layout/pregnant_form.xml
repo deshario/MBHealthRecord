@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="น้ำหนัก / กก"
+        android:textColor="#80000000"
+        android:textSize="@dimen/customTitle" />
+
+
+    <EditText
+        android:id="@+id/my_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:hint="ตัวอย่าง : 55"
+        android:textSize="@dimen/customEntry"
+        android:maxLength="4"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="18dp"-->
+        <!--android:text="Height / cm"-->
+        <!--android:textColor="#80000000"-->
+        <!--android:textSize="@dimen/customTitle" />-->
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/my_height"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:inputType="number"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="@dimen/customEntry"-->
+        <!--android:maxLength="3"/>-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="สัปดาห์ที่"
+        android:textColor="#80000000"
+        android:textSize="@dimen/customTitle"
+        android:id="@+id/weeks_txt" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/my_weekno"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:inputType="number"-->
+        <!--android:textColor="#000000"-->
+        <!--android:hint="ตัออย่าง : 01"-->
+        <!--android:textSize="@dimen/customEntry"-->
+        <!--android:maxLength="3"/>-->
+
+
+    <Spinner
+        android:layout_marginTop="5dp"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/spinner_border"
+        android:padding="10dp"
+        android:spinnerMode="dropdown"
+        android:textColor="#FFFFFF" />
+
+
+    <!--<com.lantouzi.wheelview.WheelView-->
+        <!--android:id="@+id/wheelview3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:background="@android:color/white"-->
+        <!--app:lwvHighlightColor="#31B1E6"-->
+        <!--app:lwvIntervalFactor="1.3"-->
+        <!--app:lwvMarkRatio="0.2"-->
+        <!--app:lwvMarkTextColor="#919191"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/my_weeks"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:inputType="number"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="@dimen/customEntry" />-->
+
+
+</LinearLayout>

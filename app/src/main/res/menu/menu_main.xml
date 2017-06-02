@@ -1,0 +1,29 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/action_aboutus"-->
+        <!--android:title="@string/action_license"-->
+        <!--app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/scan_cache"
+        android:title="Clear Cache Files"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_settings_white_24dp"/>
+
+    <item
+        android:id="@+id/chkforupdate"
+        android:title="Check For Updates"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_settings_white_24dp"/>
+
+    <item
+        android:id="@+id/about_app"
+        android:title="About Application"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_settings_white_24dp"/>
+</menu>
+
+

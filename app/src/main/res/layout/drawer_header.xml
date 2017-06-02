@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/nav_title_margin" >
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/profile"
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/main_icon_launcher"
+        app:civ_border_color="@color/default_bootstrap"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="@color/danger_bootstrap"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Guest (Week1)"
+        android:id="@+id/headertxt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NAN, Thailand"
+        android:id="@+id/datenow"
+        android:drawableLeft="@drawable/ic_today_black_24dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--android:padding="16dp"-->
+    <!--android:theme="@style/ThemeOverlay.AppCompat.Dark">-->
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--&gt;-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="57dp"-->
+            <!--app:srcCompat="@drawable/engineer"-->
+            <!--android:id="@+id/imageView2"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="5dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="User"-->
+            <!--android:id="@+id/headertxt"-->
+            <!--android:textSize="25sp"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="User"-->
+            <!--android:id="@+id/headertxst"-->
+            <!--android:textSize="18sp"-->
+            <!--android:gravity="right|bottom"/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+<!--</RelativeLayout>-->

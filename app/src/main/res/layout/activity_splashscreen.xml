@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/splash_screen">
+
+
+    <!--<ProgressBar-->
+        <!--style="?android:attr/progressBarStyleLarge"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/imageView"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="29dp"-->
+        <!--android:id="@+id/progressBar"-->
+        <!--android:indeterminate="true"-->
+        <!--android:indeterminateTintMode="src_atop"-->
+        <!--android:indeterminateTint="@color/danger_bootstrap"/>-->
+
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loading"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp" />
+
+
+    <!--<fr.castorflex.android.smoothprogressbar.SmoothProgressBar-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:indeterminate="true"-->
+        <!--app:spb_sections_count="4"-->
+        <!--app:spb_color="#FF0000"-->
+        <!--app:spb_speed="2.0"-->
+        <!--app:spb_stroke_width="4dp"-->
+        <!--app:spb_stroke_separator_length="4dp"-->
+        <!--app:spb_reversed="false"-->
+        <!--app:spb_mirror_mode="false"-->
+        <!--app:spb_progressiveStart_activated="true"-->
+        <!--app:spb_progressiveStart_speed="1.5"-->
+        <!--app:spb_progressiveStop_speed="3.4"-->
+        <!--/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="52dp"-->
+        <!--android:src="@drawable/splash_screen"-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+</RelativeLayout>

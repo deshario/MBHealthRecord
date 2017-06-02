@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinker">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <com.squareup.timessquare.CalendarPickerView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/calendar_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:clipToPadding="false"
+                android:background="@color/custom_background"
+                app:tsquare_dayBackground="@drawable/custom_calendar_bg_selector"
+                app:tsquare_dayTextColor="@color/primary_bootstrap"
+                app:tsquare_dividerColor="#F9A7D8"
+                app:tsquare_titleTextColor="@color/primary_bootstrap"
+                app:tsquare_headerTextColor="@color/custom_header_text"  />
+
+            <!--<android.support.design.widget.FloatingActionButton-->
+                <!--android:id="@+id/fab"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:src="@android:drawable/ic_menu_manage"-->
+                <!--app:backgroundTint="@color/default_bootstrap"-->
+                <!--app:fabSize="normal" />-->
+
+        </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white_24dp"
+        app:backgroundTint="@color/primary_bootstrap"
+        app:fabSize="normal" />
+
+
+</RelativeLayout>

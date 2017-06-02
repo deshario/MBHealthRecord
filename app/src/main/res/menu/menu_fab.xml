@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_updates"
+        android:icon="@drawable/ic_room_white_24dp"
+        android:title="Updates" />
+
+    <item
+        android:id="@+id/menu_license"
+        android:icon="@drawable/ic_room_white_24dp"
+        android:title="License" />
+
+    <item
+        android:id="@+id/menu_details"
+        android:icon="@drawable/ic_room_white_24dp"
+        android:title="Details" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_info_outline_white_24dp"
+        android:title="About" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/ic_cancel_white_24dp"
+        android:title="Exit" />
+
+
+
+</menu>

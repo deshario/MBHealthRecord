@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#ffc24793"
+android:orientation="vertical"
+android:scrollbarAlwaysDrawVerticalTrack="true">
+
+<TextView
+    android:id="@+id/name_1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="22dp"
+    android:gravity="center_horizontal"
+    android:text=" username "
+    android:textColor="#fff"
+    android:textSize="26sp"
+    android:textStyle="bold" />
+
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/email_1" />-->
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/pass_1" />-->
+
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/login_title"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="70dp"
+    android:background="#fff"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:paddingTop="-10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button android:id="@+id/backup_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="สำรองข้อมูล (Backup)"
+            android:onClick="save_form"
+            android:background="@color/primary_bootstrap"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"/>
+
+        <Button android:id="@+id/restore_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="กู้คืนข้อมูล (Restore)"
+            android:onClick="save_form"
+            android:background="@color/success_bootstrap"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ออกจากระบบ (Logout)"
+            android:onClick="save_form"
+            android:background="@color/orange"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+</RelativeLayout>

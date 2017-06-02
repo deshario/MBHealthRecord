@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/alertempty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F9A7D8"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/alert_toadddata"
+            android:background="@drawable/txt_border"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_bootstrap"
+            android:text=" คุณยังไม่ได้เพิ่มข้อมูล\n แตะที่ปุ่ม + เพื่อเพิ่มข้อมูล"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@+id/alertempty"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/mylistview"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white_24dp"
+        app:backgroundTint="@color/primary_bootstrap"
+        app:fabSize="normal" />
+
+    <!--<com.hlab.fabrevealmenu.view.FABRevealMenu-->
+        <!--android:id="@+id/fabMenu"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--app:animateItems="true"-->
+        <!--app:menuBackgroundColor="@color/pink_modified"-->
+        <!--app:menuDirection="left"-->
+        <!--app:menuRes="@menu/fab_weeks"-->
+        <!--app:menuTitleTextColor="@color/default_bootstrap"-->
+        <!--app:showOverlay="true"-->
+        <!--app:showTitle="true"/>-->
+
+</RelativeLayout>

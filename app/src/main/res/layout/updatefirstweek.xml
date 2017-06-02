@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#F9A7D8">
+
+
+    <LinearLayout
+        android:id="@+id/profiler"
+        android:layout_below="@+id/intro_title"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F9A7D8">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/main_icon_launcher"
+            app:civ_border_color="@color/primary_bootstrap"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10"
+            app:civ_shadow_color="#8BC34A"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/profiler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_nickname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableTint="#FF4081"
+                android:singleLine="true"
+                android:hint="ชื่อผู้ใช้งาน"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_weight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:singleLine="true"
+                android:drawableTint="#FF4081"
+                android:maxLength="5"
+                android:hint="น้ำหนัก"
+                android:inputType="numberDecimal" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/input_height"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:singleLine="true"
+                android:drawableTint="#FF4081"
+                android:maxLength="5"
+                android:hint="ส่วนสูง"
+                android:inputType="numberDecimal" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

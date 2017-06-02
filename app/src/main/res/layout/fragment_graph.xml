@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/db1_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eecb8a">
+
+    <LinearLayout android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ScrollView android:id="@+id/scroller"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/linechart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="390dp" />
+
+                <!--<TextView-->
+                    <!--android:background="@color/colorPrimary"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; สัปดาห์ _________"-->
+                    <!--android:gravity="center"/>-->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:background="@color/custom_selected"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_weight="0.05">
+
+        <ImageView android:id="@+id/fuck"
+            android:background="@drawable/nurse"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_margin="5dip"
+            android:layout_marginRight="8dip" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:id="@+id/graph_status"
+            android:layout_width="0.0dip"
+            android:layout_height="80.0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
